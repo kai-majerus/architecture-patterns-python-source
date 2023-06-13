@@ -1,6 +1,6 @@
 from typing import List, Dict, Callable, Type
-from allocation.adapters import email
-from allocation.domain import events
+from src.allocation.adapters import email
+from src.allocation.domain import events
 
 
 def handle(event: events.Event):
